@@ -1,0 +1,123 @@
+/*commond*/
+.comWidth{width:1000px;margin:0 150px; }
+.leftArea{float:left;}
+.rightArea{float:right;}
+
+/*headBar*/
+#head{border-bottom:1px solid #CCC;}
+#headBar{height:120px;}
+#headBar #headLogo_Img{width:500px; display:block;height:120px;}
+#headBar #searchBar{height:100px;margin-top:20px;} 
+#headBar #searchBar a{font-size:14px; }
+#headBar #searchBar i{border-left:1px solid #666;margin:0 10px;}
+#headBar #searchBar #search{margin-top:40px;}
+ #search input{border:1px solid #0FA9EB;}
+ #searchText {height:30px; width:250px; font-size:16px; float:left;}
+  #searchBtn{height:32px; width:50px;font-size:16px;color:#FFF;background-color: #0FA9EB;}
+  
+  /*navBar*/
+#navBar{height:50px; background-color:#F5F5F5; border-bottom:1px solid #CCC;} 
+.nav ul{margin:0 2px;}
+.nav li{float:left; text-align:center; line-height:50px;}
+.nav li a{ height:50px;width:140px; display:inline-block; font-size:16px; color:#333;}
+.nav li a:hover{color:#FFF; background-color:#0FA9EB;}
+
+
+/*midBar*/
+#index_midBar{height:300px;  margin-top:50px;}
+#index_midBar dl{width:47%; float:left; height:40%;margin:10px 12px; }
+#index_midBar dt{float:left; border:2px solid #666;  height:100px;width:100px; text-align:center; margin-right:20px;border-radius:100px;}
+#index_midBar dt img{height:100px; width:100px;border-radius:100px;}
+#index_midBar dd{overflow:hidden; height:100px; line-height:24px;}
+#index_midBar dd h3{font-size:16px; font-weight:normal; margin-bottom:6px;}
+#index_midBardd p{font-size:13px;}
+#index_midBar dl:hover dt{border:2px solid #0fa9eb;}
+#index_midBar dl:hover dd a{color:#0fa9eb;}
+
+
+/*foot*/
+#foot{height:130px; background-color:#0FB4EB; text-align:center; padding-top:20px; line-height:36px; margin-top:20px;}
+#foot i{border-left:1px solid #FFF; margin:0 10px;}
+#foot a,#foot p{color:#FFF; font-size:14px;}
+
+/*changePage*/
+#changePage {width:100%;text-align:center;  margin-top:30px; clear:both;}
+#changePage input{border:none; background-color:#F3F3F3; width:60px;height:30px}
+#changePage a{height:32px; width:20px; background-color:#FFF; display:inline-block; line-height:30px; margin:0 5px;}
+#changePage a:hover{background-color:#0FB4EB; }
+/*logoBar*/
+#logoBar_Img{width:100%}
+
+
+/*midBar*/
+.midLeft{width:190px;}
+.midLeft dt{height:62px; line-height:62px;  background-color:#74CCF3;}
+.midLeft h2{font-size:24px; color:#FFF; font-weight:normal; border-bottom:1px solid #FFF; width:100px; height:50px; margin-left:20px;}
+.midLeft  dd{height:36px; background-color:#EEE; line-height:36px;}
+.midLeft dd a{height:36px;  width:100%; display:inline-block; text-indent:20px; font-size:16px; color:#333;}
+.midLeft dd a:hover{color:#FFF; background-color:#0FA9EB;}
+.midRight{width:780px;}
+
+/*联系我们*/
+.midRight .rightHead{ height:30px; border-bottom:1px solid #CCC; line-height:30px; margin:16px 0;}
+.midRight .rightHead h3{font-size:18px; color:#0FA9EB; height:29px; display:inline-block;border-bottom:3px solid #0FA9EB;}
+.midRight .rightAddress{margin-top:30px; font-size:14px; line-height:40px;color:#000;}
+.midRight .rightAddress img{margin-bottom:20px;}
+
+
+/*关于我们*/
+.rightAbout{text-indent:28px; font-size:14px; line-height:40px;}
+#about_map { margin-top:40px;}
+.aboutHistory{text-indent:0px;}
+.aboutHistory span{font-weight:bold;}
+.aboutPartner li{text-indent:0px; float:left; width:180px; margin:10px  7px;}
+
+/*招聘职位*/
+.rightRecruit li{height:60px; line-height:60px; border-bottom:1px dashed #CCC;}
+.rightRecruit li a{font-size:16px; color:#000;}
+.rightRecruit li span{float:right; font-size:16px; color:#0fa9eb;}
+.rightRecruit li a:hover{color:#0FA9EB;}
+/*工作要求详情*/
+.job_dammand h3{height:30px; width:100%; display:inline-block; text-align:center;font-size:24px; color:#0FA9EB; margin:10px 0;}
+.job_dammand span{text-align:center;display:inline-block; width:100%;border-bottom:1px dashed #ccc; padding-bottom:10px; margin-bottom:20px;}
+.job_dammand p{line-height:50px;font-size:16px; text-indent:30px; color:#000;}
+.job_dammand a{height:34px; width:100px; display:block; text-align:center; margin:0 auto; background-color:#0FA9EB; font-size:18px; color:#FFF; line-height:34px; margin-top:50px;}
+
+
+/*新闻资讯*/
+.rightNews dl{height:166px; border-bottom:1px #CCC dashed; margin-top:30px;}
+.rightNews dt{float:left;  width:190px ; height:144px; overflow:hidden; margin-right:30px;}
+.rightNews dt img{width:100%; height:100%;}
+.rightNews .caseText{height:90px; float:right; width:558px;}
+.rightNews dd h3{font-size:14px; color:#0fa9eb; margin-bottom:8px;}
+.rightNews dd h3 span{color:#333; font-weight:none;}
+.rightNews dd p {font-size:14px; line-height:30px; text-indent:30px;}
+.checkMore{border:1px solid #0fa9eb; width:80px; height:30px; display:inline-block; line-height:32px; font-size:14px; color:#0fa9eb; background:url(../images/icon_moreNews.png) left 3px center no-repeat; text-indent:16px;}
+
+/*新闻详情*/
+.newsMessage h3{font-size:18px;}
+.newsMessage p{font-size:16px; line-height:28px; color:#333;}
+.newsMessage img{width:100%; margin:30px auto;}
+
+/*成功案例*/
+.midLeft dl h3{font-size:16px; color:#0fa9eb; line-height:30px;}
+.midLeft dl p{ font-size:12px; line-height:30px;}
+
+/*产品中心*/
+.productList {}
+.productList li{width:31%; overflow:hidden; text-align:center; float:left; margin-bottom:36px;}
+.productList .midProduct{margin:0 27px;}
+.productList li img{border:1px solid #CCC; height:100%; width:238px; margin-bottom:15px; }
+.productList li a{ width:100%; height:100%; display:block; font-size:14px;}
+.productList li a:hover{color:#0fa9eb; }
+
+/*产品详细信息*/
+.productMessage{border-bottom:1px dashed#ccc;}
+
+
+/*在线留言*/
+.leaving_message { text-align:center;}
+.leaving_message input{border:1px solid #CCC; height:34px; width:450px; margin-bottom:20px; font-size:16px; color:#000;}
+.leaving_message textarea{height:250px; width:450px;font-size:14px; color:#000; margin-bottom:30px;}
+.leaving_message .sub_message{width:100px; background-color:#0FA9EB; color:#FFF; box-shadow:0 2px 2px 2px #CCC; }
+
